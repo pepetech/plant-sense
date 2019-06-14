@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2979,46 +2979,46 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </part>
 <part name="U2" library="Microchip" deviceset="MIC23155" device=""/>
 <part name="2V810" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND28" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="R13" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
-<part name="2V85" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="GND23" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="R10" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
+<part name="2V84" library="Supply Symbol" deviceset="2V8" device=""/>
 <part name="S1" library="Switch" deviceset="TAC_SWITCH" device="SMD"/>
-<part name="GND34" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND29" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="TC1" library="TagConnect" deviceset="TC2050-IDC" device="-NL"/>
 <part name="2V816" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND35" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND30" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="FRAME2" library="Frame" deviceset="A3-LANDSCAPE" device=""/>
 <part name="L2" library="Inductor" deviceset="INDUCTOR" device="-0603" value="4.7uH">
 <attribute name="OCLCSC" value="C281111"/>
 </part>
 <part name="1V81" library="Supply Symbol" deviceset="1V8" device=""/>
-<part name="GND31" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND26" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C16" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="GND29" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND24" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="2V811" library="Supply Symbol" deviceset="2V8" device=""/>
 <part name="C15" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="4.7uF"/>
-<part name="GND27" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND22" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C12" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="2V84" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND24" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="2V83" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="GND18" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C13" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="2V86" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND25" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="2V85" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="GND19" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C14" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="2V88" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND26" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="2V87" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="GND20" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="U7" library="HopeRF" deviceset="RFM69H" device="W" value="RFM69HW"/>
-<part name="GND38" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND33" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C18" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="GND36" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND31" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="RFCON1" library="RF Connector" deviceset="RFCON" device="-U.FL" value="RFCON-U.FL"/>
-<part name="GND39" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND34" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="2V819" library="Supply Symbol" deviceset="2V8" device=""/>
 <part name="2V817" library="Supply Symbol" deviceset="2V8" device=""/>
 <part name="FRAME3" library="Frame" deviceset="A3-LANDSCAPE" device=""/>
+<part name="R16" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
 <part name="R17" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
-<part name="R18" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
-<part name="GND37" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND32" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="2V818" library="Supply Symbol" deviceset="2V8" device=""/>
 <part name="FRAME4" library="Frame" deviceset="A3-LANDSCAPE" device="">
 <attribute name="CNAME" value=""/>
@@ -3026,144 +3026,144 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <attribute name="DESIGNER" value=""/>
 </part>
 <part name="U8" library="Silicon Labs" deviceset="SI7021" device=""/>
-<part name="VBAT1" library="Supply Symbol" deviceset="VBAT" device=""/>
+<part name="VBAT2" library="Supply Symbol" deviceset="VBAT" device=""/>
 <part name="U3" library="Fortune" deviceset="FS312F-G" device=""/>
-<part name="GND20" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VBAT4" library="Supply Symbol" deviceset="VBAT" device=""/>
-<part name="R12" library="Resistor" deviceset="RESISTOR" device="-0603" value="10M Ohm"/>
-<part name="R8" library="Resistor" deviceset="RESISTOR" device="-0603" value="100 Ohms"/>
-<part name="GND19" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C11" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="GND15" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="VBAT5" library="Supply Symbol" deviceset="VBAT" device=""/>
+<part name="R9" library="Resistor" deviceset="RESISTOR" device="-0603" value="10M Ohm"/>
+<part name="R6" library="Resistor" deviceset="RESISTOR" device="-0603" value="100 Ohms"/>
+<part name="GND13" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C11" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="VBAT6" library="Supply Symbol" deviceset="VBAT" device=""/>
 <part name="U4" library="Fortune" deviceset="FS8205" device=""/>
-<part name="2V822" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND42" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C20" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
 <part name="2V821" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND41" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="GND11" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C3" library="Capacitor" deviceset="CAPACITOR" device="-1206" value="100uF"/>
-<part name="GND9" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C1" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="R7" library="Resistor" deviceset="RESISTOR" device="-0603" value="1K Ohms"/>
+<part name="GND40" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C21" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="2V820" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="GND37" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND5" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C4" library="Capacitor" deviceset="CAPACITOR" device="-1206" value="100uF"/>
+<part name="GND3" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C3" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="R5" library="Resistor" deviceset="RESISTOR" device="-0603" value="1K Ohms"/>
 <part name="L1" library="Inductor" deviceset="INDUCTOR" device="-0805" value="2.2uH">
 <attribute name="OCLCSC" value="C139241"/>
 </part>
 <part name="C10" library="Capacitor" deviceset="CAPACITOR" device="-1206" value="100uF"/>
 <part name="C9" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="2.2uF"/>
-<part name="R10" library="Resistor" deviceset="RESISTOR" device="-0603" value="324K Ohms"/>
-<part name="R11" library="Resistor" deviceset="RESISTOR" device="-0603" value="91K Ohms"/>
-<part name="GND21" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="GND22" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="GND23" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C8" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
-<part name="GND18" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="R7" library="Resistor" deviceset="RESISTOR" device="-0603" value="324K Ohms"/>
+<part name="R8" library="Resistor" deviceset="RESISTOR" device="-0603" value="91K Ohms"/>
+<part name="GND14" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND16" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="GND17" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="2V83" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="C8" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
+<part name="GND12" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND11" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="2V82" library="Supply Symbol" deviceset="2V8" device=""/>
 <part name="U6" library="Microchip" deviceset="SST26VF016B" device=""/>
 <part name="C17" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
 <part name="2V812" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND32" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="GND33" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND27" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND28" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="2V814" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="R16" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
+<part name="R15" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
 <part name="2V813" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="R14" library="Resistor" deviceset="RESISTOR" device="-0603" value="10K Ohms"/>
-<part name="2V87" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="R15" library="Resistor" deviceset="RESISTOR" device="-0603" value="10K Ohms"/>
-<part name="2V89" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="R12" library="Resistor" deviceset="RESISTOR" device="-0603" value="10K Ohms"/>
+<part name="2V86" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="R13" library="Resistor" deviceset="RESISTOR" device="-0603" value="10K Ohms"/>
+<part name="2V88" library="Supply Symbol" deviceset="2V8" device=""/>
 <part name="2V815" library="Supply Symbol" deviceset="2V8" device=""/>
 <part name="VBAT3" library="Supply Symbol" deviceset="VBAT" device=""/>
-<part name="GND16" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="R5" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
-<part name="R6" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
-<part name="C6" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
-<part name="GND14" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C21" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="GND46" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="GND50" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="U1" library="Microchip" deviceset="MCP125*" device="" technology="3-33X50"/>
-<part name="C19" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="10uF"/>
-<part name="GND5" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C22" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="GND7" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="GND40" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="R2" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
-<part name="2V4" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="GND10" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="R3" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
 <part name="R4" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
-<part name="GND43" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C23" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="10uF"/>
-<part name="VIN3" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="CON1" library="JST" deviceset="3P" device="-SH-TOP" value="3P-SH-TOP"/>
-<part name="GND51" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C24" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
-<part name="R19" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
-<part name="GND44" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN4" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="CON2" library="JST" deviceset="3P" device="-SH-TOP" value="3P-SH-TOP"/>
-<part name="GND45" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C25" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
-<part name="R20" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
-<part name="GND47" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN5" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="CON3" library="JST" deviceset="3P" device="-SH-TOP" value="3P-SH-TOP"/>
-<part name="GND48" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C26" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
-<part name="R21" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
-<part name="GND49" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN6" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="CON4" library="JST" deviceset="3P" device="-SH-TOP" value="3P-SH-TOP"/>
-<part name="GND52" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="C27" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
-<part name="R22" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
-<part name="GND53" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN7" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="T1" library="Generic BJT" deviceset="BC817" device=""/>
-<part name="D3" library="LED" deviceset="LED" device="1206"/>
-<part name="R23" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
-<part name="R24" library="Resistor" deviceset="RESISTOR" device="-0603" value="330 Ohms"/>
-<part name="2V3" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND54" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VBAT2" library="Supply Symbol" deviceset="VBAT" device=""/>
-<part name="CON5" library="JST" deviceset="4P" device="-SH-TOP"/>
-<part name="GND30" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN8" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="U9" library="Analog Devices" deviceset="LTC4316" device=""/>
-<part name="R25" library="Resistor" deviceset="RESISTOR" device="-0603" value="10K Ohms"/>
-<part name="R26" library="Resistor" deviceset="RESISTOR" device="-0603" value="10K Ohms"/>
-<part name="VIN9" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="VIN10" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="2V5" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="C28" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="2V6" library="Supply Symbol" deviceset="2V8" device=""/>
-<part name="GND55" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="GND56" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="CON6" library="JST" deviceset="4P" device="-SH-TOP"/>
-<part name="GND57" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN11" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="CON7" library="JST" deviceset="4P" device="-SH-TOP"/>
-<part name="GND58" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN12" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="CON8" library="JST" deviceset="4P" device="-SH-TOP"/>
-<part name="GND59" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN13" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="CON9" library="JST" deviceset="2P" device="-PH-TOP"/>
-<part name="U5" library="EFM32" deviceset="EFM32PG1B200F*M32" device="" technology="256G"/>
-<part name="X1" library="Crystal" deviceset="CRYSTAL_4P" device="" value="40MHz"/>
-<part name="GND1" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VBAT6" library="Supply Symbol" deviceset="VBAT" device=""/>
-<part name="VIN1" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="C7" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
+<part name="GND9" library="Supply Symbol" deviceset="GND" device=""/>
 <part name="C2" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
 <part name="GND2" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN2" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="C4" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="GND3" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN14" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="C5" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
-<part name="GND4" library="Supply Symbol" deviceset="GND" device=""/>
-<part name="VIN15" library="Supply Symbol" deviceset="VEXT" device=""/>
-<part name="C7" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="GND8" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="U1" library="Microchip" deviceset="MCP125*" device="" technology="3-33X50"/>
+<part name="C1" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="10uF"/>
+<part name="GND1" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C5" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="1uF"/>
 <part name="GND6" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND7" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="R2" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
+<part name="2V81" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="R1" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
+<part name="GND4" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C6" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="10uF"/>
+<part name="VIN1" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="CON2" library="JST" deviceset="3P" device="-SH-TOP" value="3P-SH-TOP"/>
+<part name="GND41" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C22" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
+<part name="R18" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
+<part name="GND38" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN4" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="CON3" library="JST" deviceset="3P" device="-SH-TOP" value="3P-SH-TOP"/>
+<part name="GND42" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C23" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
+<part name="R19" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
+<part name="GND39" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN5" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="CON4" library="JST" deviceset="3P" device="-SH-TOP" value="3P-SH-TOP"/>
+<part name="GND47" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C26" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
+<part name="R20" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
+<part name="GND45" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN8" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="CON5" library="JST" deviceset="3P" device="-SH-TOP" value="3P-SH-TOP"/>
+<part name="GND48" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="C27" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="470pF"/>
+<part name="R21" library="Resistor" deviceset="RESISTOR" device="-0603" value="0 Ohms"/>
+<part name="GND46" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN9" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="T1" library="Generic BJT" deviceset="BC817" device=""/>
+<part name="D1" library="LED" deviceset="LED" device="1206"/>
+<part name="R11" library="Resistor" deviceset="RESISTOR" device="-0603" value="100K Ohms"/>
+<part name="R14" library="Resistor" deviceset="RESISTOR" device="-0603" value="330 Ohms"/>
+<part name="2V89" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="GND21" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VBAT1" library="Supply Symbol" deviceset="VBAT" device=""/>
+<part name="CON6" library="JST" deviceset="4P" device="-SH-TOP"/>
+<part name="GND50" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN10" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="U9" library="Analog Devices" deviceset="LTC4316" device=""/>
+<part name="R22" library="Resistor" deviceset="RESISTOR" device="-0603" value="10K Ohms"/>
+<part name="R23" library="Resistor" deviceset="RESISTOR" device="-0603" value="10K Ohms"/>
+<part name="VIN14" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="VIN15" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="2V823" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="C28" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="2V822" library="Supply Symbol" deviceset="2V8" device=""/>
+<part name="GND49" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="GND52" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="CON7" library="JST" deviceset="4P" device="-SH-TOP"/>
+<part name="GND51" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN11" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="CON8" library="JST" deviceset="4P" device="-SH-TOP"/>
+<part name="GND53" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN12" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="CON9" library="JST" deviceset="4P" device="-SH-TOP"/>
+<part name="GND54" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN13" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="CON1" library="JST" deviceset="2P" device="-PH-TOP"/>
+<part name="U5" library="EFM32" deviceset="EFM32PG1B200F*M32" device="" technology="256G"/>
+<part name="X1" library="Crystal" deviceset="CRYSTAL_4P" device="" value="40MHz"/>
+<part name="GND25" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VBAT4" library="Supply Symbol" deviceset="VBAT" device=""/>
+<part name="VIN2" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="C19" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="GND35" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN6" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="C24" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="GND43" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN7" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="C25" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="GND44" library="Supply Symbol" deviceset="GND" device=""/>
+<part name="VIN3" library="Supply Symbol" deviceset="VEXT" device=""/>
+<part name="C20" library="Capacitor" deviceset="CAPACITOR" device="-0603" value="100nF"/>
+<part name="GND36" library="Supply Symbol" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3188,56 +3188,56 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <attribute name="NAME" x="259.08" y="206.756" size="1.27" layer="95"/>
 <attribute name="VALUE" x="259.08" y="204.47" size="1.27" layer="96"/>
 </instance>
-<instance part="VBAT1" gate="G$1" x="78.74" y="81.28" smashed="yes">
+<instance part="VBAT2" gate="G$1" x="78.74" y="81.28" smashed="yes">
 <attribute name="VALUE" x="76.2" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U3" gate="G$1" x="302.26" y="66.04" smashed="yes">
 <attribute name="NAME" x="287.02" y="68.58" size="1.27" layer="95"/>
 <attribute name="VALUE" x="287.02" y="66.802" size="1.27" layer="96"/>
 </instance>
-<instance part="GND20" gate="G$1" x="325.12" y="38.1" smashed="yes">
+<instance part="GND15" gate="G$1" x="325.12" y="38.1" smashed="yes">
 <attribute name="VALUE" x="322.326" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="VBAT4" gate="G$1" x="266.7" y="73.66" smashed="yes">
+<instance part="VBAT5" gate="G$1" x="266.7" y="73.66" smashed="yes">
 <attribute name="VALUE" x="264.16" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R12" gate="G$1" x="345.44" y="63.5" smashed="yes" rot="R270">
+<instance part="R9" gate="G$1" x="345.44" y="63.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="341.7824" y="62.8142" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="348.2086" y="62.5094" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R8" gate="G$1" x="269.24" y="63.5" smashed="yes">
+<instance part="R6" gate="G$1" x="269.24" y="63.5" smashed="yes">
 <attribute name="VALUE" x="269.9258" y="59.8424" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="270.2306" y="66.2686" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="GND19" gate="G$1" x="259.08" y="38.1" smashed="yes">
+<instance part="GND13" gate="G$1" x="259.08" y="38.1" smashed="yes">
 <attribute name="VALUE" x="256.286" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="C11" gate="G$1" x="363.22" y="78.74" smashed="yes" rot="R270">
 <attribute name="VALUE" x="358.9528" y="79.3242" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="365.9886" y="79.6544" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="VBAT5" gate="G$1" x="363.22" y="83.82" smashed="yes">
+<instance part="VBAT6" gate="G$1" x="363.22" y="83.82" smashed="yes">
 <attribute name="VALUE" x="360.68" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U4" gate="G$1" x="317.5" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="319.024" y="70.612" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="321.31" y="70.612" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="GND11" gate="G$1" x="78.74" y="38.1" smashed="yes">
+<instance part="GND5" gate="G$1" x="78.74" y="38.1" smashed="yes">
 <attribute name="VALUE" x="75.946" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="78.74" y="50.8" smashed="yes" rot="R270">
+<instance part="C4" gate="G$1" x="78.74" y="50.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="74.4728" y="51.3842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="81.5086" y="51.7144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND9" gate="G$1" x="66.04" y="38.1" smashed="yes">
+<instance part="GND3" gate="G$1" x="66.04" y="38.1" smashed="yes">
 <attribute name="VALUE" x="63.246" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="66.04" y="50.8" smashed="yes" rot="R270">
+<instance part="C3" gate="G$1" x="66.04" y="50.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="61.7728" y="51.3842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="68.8086" y="51.7144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R7" gate="G$1" x="259.08" y="55.88" smashed="yes" rot="R270">
+<instance part="R5" gate="G$1" x="259.08" y="55.88" smashed="yes" rot="R270">
 <attribute name="VALUE" x="255.4224" y="55.1942" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="261.8486" y="54.8894" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
@@ -3254,120 +3254,120 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <attribute name="VALUE" x="331.0128" y="191.0842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="338.0486" y="191.4144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R10" gate="G$1" x="322.58" y="195.58" smashed="yes" rot="R270">
+<instance part="R7" gate="G$1" x="322.58" y="195.58" smashed="yes" rot="R270">
 <attribute name="VALUE" x="318.9224" y="194.8942" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="325.3486" y="194.5894" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R11" gate="G$1" x="322.58" y="177.8" smashed="yes" rot="R270">
+<instance part="R8" gate="G$1" x="322.58" y="177.8" smashed="yes" rot="R270">
 <attribute name="VALUE" x="318.9224" y="177.1142" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="325.3486" y="176.8094" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND21" gate="G$1" x="322.58" y="160.02" smashed="yes">
+<instance part="GND14" gate="G$1" x="322.58" y="160.02" smashed="yes">
 <attribute name="VALUE" x="319.786" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="GND22" gate="G$1" x="335.28" y="160.02" smashed="yes">
+<instance part="GND16" gate="G$1" x="335.28" y="160.02" smashed="yes">
 <attribute name="VALUE" x="332.486" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="GND23" gate="G$1" x="347.98" y="160.02" smashed="yes">
+<instance part="GND17" gate="G$1" x="347.98" y="160.02" smashed="yes">
 <attribute name="VALUE" x="345.186" y="154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="238.76" y="172.72" smashed="yes" rot="R270">
 <attribute name="VALUE" x="234.4928" y="173.3042" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="241.5286" y="173.6344" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND18" gate="G$1" x="248.92" y="160.02" smashed="yes">
+<instance part="GND12" gate="G$1" x="248.92" y="160.02" smashed="yes">
 <attribute name="VALUE" x="246.126" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="GND17" gate="G$1" x="238.76" y="160.02" smashed="yes">
+<instance part="GND11" gate="G$1" x="238.76" y="160.02" smashed="yes">
 <attribute name="VALUE" x="235.966" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="2V83" gate="G$1" x="347.98" y="226.06" smashed="yes">
+<instance part="2V82" gate="G$1" x="347.98" y="226.06" smashed="yes">
 <attribute name="VALUE" x="345.44" y="223.52" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="VBAT3" gate="G$1" x="208.28" y="78.74" smashed="yes">
 <attribute name="VALUE" x="205.74" y="76.2" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND16" gate="G$1" x="208.28" y="38.1" smashed="yes">
+<instance part="GND10" gate="G$1" x="208.28" y="38.1" smashed="yes">
 <attribute name="VALUE" x="205.486" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="208.28" y="73.66" smashed="yes" rot="R270">
+<instance part="R3" gate="G$1" x="208.28" y="73.66" smashed="yes" rot="R270">
 <attribute name="VALUE" x="204.6224" y="72.9742" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="211.0486" y="72.6694" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R6" gate="G$1" x="208.28" y="55.88" smashed="yes" rot="R270">
+<instance part="R4" gate="G$1" x="208.28" y="55.88" smashed="yes" rot="R270">
 <attribute name="VALUE" x="204.6224" y="55.1942" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="211.0486" y="54.8894" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="C6" gate="G$1" x="195.58" y="53.34" smashed="yes" rot="R270">
+<instance part="C7" gate="G$1" x="195.58" y="53.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="191.3128" y="53.9242" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="198.3486" y="54.2544" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND14" gate="G$1" x="195.58" y="38.1" smashed="yes">
+<instance part="GND9" gate="G$1" x="195.58" y="38.1" smashed="yes">
 <attribute name="VALUE" x="192.786" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="C21" gate="G$1" x="45.72" y="190.5" smashed="yes" rot="R270">
+<instance part="C2" gate="G$1" x="45.72" y="190.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="41.4528" y="191.0842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="48.4886" y="191.4144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND46" gate="G$1" x="45.72" y="160.02" smashed="yes">
+<instance part="GND2" gate="G$1" x="45.72" y="160.02" smashed="yes">
 <attribute name="VALUE" x="42.926" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="GND50" gate="G$1" x="180.34" y="160.02" smashed="yes">
+<instance part="GND8" gate="G$1" x="180.34" y="160.02" smashed="yes">
 <attribute name="VALUE" x="177.546" y="154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="U1" gate="G$1" x="121.92" y="208.28" smashed="yes">
 <attribute name="NAME" x="96.52" y="211.836" size="1.27" layer="95"/>
 <attribute name="VALUE" x="96.52" y="209.55" size="1.27" layer="96"/>
 </instance>
-<instance part="C19" gate="G$1" x="33.02" y="190.5" smashed="yes" rot="R270">
+<instance part="C1" gate="G$1" x="33.02" y="190.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="28.7528" y="191.0842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="35.7886" y="191.4144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND5" gate="G$1" x="33.02" y="160.02" smashed="yes">
+<instance part="GND1" gate="G$1" x="33.02" y="160.02" smashed="yes">
 <attribute name="VALUE" x="30.226" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="C22" gate="G$1" x="86.36" y="190.5" smashed="yes" rot="R270">
+<instance part="C5" gate="G$1" x="86.36" y="190.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="82.0928" y="191.0842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="89.1286" y="191.4144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND7" gate="G$1" x="86.36" y="160.02" smashed="yes">
+<instance part="GND6" gate="G$1" x="86.36" y="160.02" smashed="yes">
 <attribute name="VALUE" x="83.566" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="GND40" gate="G$1" x="167.64" y="160.02" smashed="yes">
+<instance part="GND7" gate="G$1" x="167.64" y="160.02" smashed="yes">
 <attribute name="VALUE" x="164.846" y="154.94" size="1.778" layer="96"/>
 </instance>
 <instance part="R2" gate="G$1" x="132.08" y="228.6" smashed="yes" rot="R270">
 <attribute name="VALUE" x="128.4224" y="227.9142" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="134.8486" y="227.6094" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V4" gate="G$1" x="132.08" y="236.22" smashed="yes">
+<instance part="2V81" gate="G$1" x="132.08" y="236.22" smashed="yes">
 <attribute name="VALUE" x="129.54" y="233.68" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R4" gate="G$1" x="73.66" y="190.5" smashed="yes" rot="R270">
+<instance part="R1" gate="G$1" x="73.66" y="190.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="70.0024" y="189.8142" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="76.4286" y="189.5094" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND43" gate="G$1" x="73.66" y="160.02" smashed="yes">
+<instance part="GND4" gate="G$1" x="73.66" y="160.02" smashed="yes">
 <attribute name="VALUE" x="70.866" y="154.94" size="1.778" layer="96"/>
 </instance>
-<instance part="C23" gate="G$1" x="180.34" y="185.42" smashed="yes" rot="R270">
+<instance part="C6" gate="G$1" x="180.34" y="185.42" smashed="yes" rot="R270">
 <attribute name="VALUE" x="176.0728" y="186.0042" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="183.1086" y="186.3344" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="VIN3" gate="G$1" x="180.34" y="236.22" smashed="yes">
+<instance part="VIN1" gate="G$1" x="180.34" y="236.22" smashed="yes">
 <attribute name="VALUE" x="177.8" y="233.68" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VBAT2" gate="G$1" x="33.02" y="236.22" smashed="yes">
+<instance part="VBAT1" gate="G$1" x="33.02" y="236.22" smashed="yes">
 <attribute name="VALUE" x="30.48" y="233.68" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON9" gate="-1" x="35.56" y="58.42" smashed="yes" rot="MR0">
+<instance part="CON1" gate="-1" x="35.56" y="58.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="33.02" y="57.658" size="1.524" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="36.322" y="59.817" size="1.524" layer="96" rot="MR0"/>
 </instance>
-<instance part="CON9" gate="-2" x="35.56" y="50.8" smashed="yes" rot="MR0">
+<instance part="CON1" gate="-2" x="35.56" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="33.02" y="50.038" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="VBAT6" gate="G$1" x="248.92" y="226.06" smashed="yes">
+<instance part="VBAT4" gate="G$1" x="248.92" y="226.06" smashed="yes">
 <attribute name="VALUE" x="246.38" y="223.52" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
@@ -3377,31 +3377,31 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <net name="VBAT" class="0">
 <segment>
 <wire x1="38.1" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="VBAT1" gate="G$1" pin="VBAT"/>
+<pinref part="VBAT2" gate="G$1" pin="VBAT"/>
 <wire x1="66.04" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="81.28" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <junction x="78.74" y="58.42"/>
-<pinref part="C3" gate="G$1" pin="C1"/>
+<pinref part="C4" gate="G$1" pin="C1"/>
 <wire x1="78.74" y1="50.8" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="C1"/>
+<pinref part="C3" gate="G$1" pin="C1"/>
 <wire x1="66.04" y1="50.8" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 <junction x="66.04" y="58.42"/>
-<pinref part="CON9" gate="-1" pin="S"/>
+<pinref part="CON1" gate="-1" pin="S"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="VBAT4" gate="G$1" pin="VBAT"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="VBAT5" gate="G$1" pin="VBAT"/>
 <wire x1="269.24" y1="63.5" x2="266.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="63.5" x2="266.7" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="C1"/>
-<pinref part="VBAT5" gate="G$1" pin="VBAT"/>
+<pinref part="VBAT6" gate="G$1" pin="VBAT"/>
 <wire x1="363.22" y1="78.74" x2="363.22" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="VBAT3" gate="G$1" pin="VBAT"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="78.74" x2="208.28" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3409,13 +3409,13 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="45.72" y1="205.74" x2="33.02" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="205.74" x2="33.02" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VIN"/>
-<pinref part="C19" gate="G$1" pin="C1"/>
+<pinref part="C1" gate="G$1" pin="C1"/>
 <wire x1="33.02" y1="190.5" x2="33.02" y2="205.74" width="0.1524" layer="91"/>
 <junction x="33.02" y="205.74"/>
-<pinref part="C21" gate="G$1" pin="C1"/>
+<pinref part="C2" gate="G$1" pin="C1"/>
 <wire x1="45.72" y1="190.5" x2="45.72" y2="205.74" width="0.1524" layer="91"/>
 <junction x="45.72" y="205.74"/>
-<pinref part="VBAT2" gate="G$1" pin="VBAT"/>
+<pinref part="VBAT1" gate="G$1" pin="VBAT"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="EN"/>
@@ -3429,14 +3429,14 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <junction x="248.92" y="198.12"/>
 <wire x1="248.92" y1="200.66" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
 <junction x="248.92" y="200.66"/>
-<pinref part="VBAT6" gate="G$1" pin="VBAT"/>
+<pinref part="VBAT4" gate="G$1" pin="VBAT"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="GND20" gate="G$1" pin="GND"/>
+<pinref part="GND15" gate="G$1" pin="GND"/>
 <wire x1="325.12" y1="38.1" x2="325.12" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="40.64" x2="325.12" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="50.8" x2="345.44" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="40.64" x2="325.12" y2="40.64" width="0.1524" layer="91"/>
@@ -3444,37 +3444,37 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <pinref part="U4" gate="G$1" pin="S1"/>
 </segment>
 <segment>
-<pinref part="GND11" gate="G$1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="C2"/>
+<pinref part="GND5" gate="G$1" pin="GND"/>
+<pinref part="C4" gate="G$1" pin="C2"/>
 <wire x1="78.74" y1="38.1" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND9" gate="G$1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="C2"/>
+<pinref part="GND3" gate="G$1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="C2"/>
 <wire x1="66.04" y1="38.1" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND19" gate="G$1" pin="GND"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="GND13" gate="G$1" pin="GND"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="38.1" x2="259.08" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND21" gate="G$1" pin="GND"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="GND14" gate="G$1" pin="GND"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="322.58" y1="160.02" x2="322.58" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND22" gate="G$1" pin="GND"/>
+<pinref part="GND16" gate="G$1" pin="GND"/>
 <pinref part="C9" gate="G$1" pin="C2"/>
 <wire x1="335.28" y1="160.02" x2="335.28" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND23" gate="G$1" pin="GND"/>
+<pinref part="GND17" gate="G$1" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="C2"/>
 <wire x1="347.98" y1="160.02" x2="347.98" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND18" gate="G$1" pin="GND"/>
+<pinref part="GND12" gate="G$1" pin="GND"/>
 <pinref part="U2" gate="G$1" pin="AGND"/>
 <wire x1="248.92" y1="160.02" x2="248.92" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="175.26" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
@@ -3489,49 +3489,49 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="C2"/>
-<pinref part="GND17" gate="G$1" pin="GND"/>
+<pinref part="GND11" gate="G$1" pin="GND"/>
 <wire x1="238.76" y1="165.1" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND16" gate="G$1" pin="GND"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="GND10" gate="G$1" pin="GND"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="38.1" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND14" gate="G$1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="C2"/>
+<pinref part="GND9" gate="G$1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="C2"/>
 <wire x1="195.58" y1="38.1" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND46" gate="G$1" pin="GND"/>
-<pinref part="C21" gate="G$1" pin="C2"/>
+<pinref part="GND2" gate="G$1" pin="GND"/>
+<pinref part="C2" gate="G$1" pin="C2"/>
 <wire x1="45.72" y1="160.02" x2="45.72" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND50" gate="G$1" pin="GND"/>
+<pinref part="GND8" gate="G$1" pin="GND"/>
 <wire x1="180.34" y1="160.02" x2="180.34" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="C2"/>
+<pinref part="C6" gate="G$1" pin="C2"/>
 </segment>
 <segment>
-<pinref part="GND5" gate="G$1" pin="GND"/>
-<pinref part="C19" gate="G$1" pin="C2"/>
+<pinref part="GND1" gate="G$1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="C2"/>
 <wire x1="33.02" y1="160.02" x2="33.02" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND7" gate="G$1" pin="GND"/>
+<pinref part="GND6" gate="G$1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="86.36" y1="160.02" x2="86.36" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="172.72" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND40" gate="G$1" pin="GND"/>
+<pinref part="GND7" gate="G$1" pin="GND"/>
 <pinref part="U1" gate="G$1" pin="SELECT/FB"/>
 <wire x1="167.64" y1="160.02" x2="167.64" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="185.42" x2="127" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND43" gate="G$1" pin="GND"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="GND4" gate="G$1" pin="GND"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="160.02" x2="73.66" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3558,7 +3558,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <segment>
 <wire x1="325.12" y1="73.66" x2="325.12" y2="76.2" width="0.1524" layer="91"/>
 <label x="325.12" y="78.74" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="325.12" y1="76.2" x2="325.12" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="63.5" x2="345.44" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="76.2" x2="325.12" y2="76.2" width="0.1524" layer="91"/>
@@ -3573,12 +3573,12 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <segment>
 <label x="45.72" y="50.8" size="1.778" layer="95" xref="yes"/>
 <wire x1="38.1" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="CON9" gate="-2" pin="S"/>
+<pinref part="CON1" gate="-2" pin="S"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="U3" gate="G$1" pin="VCC"/>
 <wire x1="281.94" y1="63.5" x2="284.48" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -3587,7 +3587,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <segment>
 <pinref part="U3" gate="G$1" pin="CS"/>
 <wire x1="284.48" y1="58.42" x2="259.08" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="55.88" x2="259.08" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3598,7 +3598,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="314.96" y1="195.58" x2="314.96" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="314.96" y1="200.66" x2="307.34" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="322.58" y1="195.58" x2="322.58" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="200.66" x2="314.96" y2="200.66" width="0.1524" layer="91"/>
 <junction x="314.96" y="200.66"/>
@@ -3610,13 +3610,13 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="347.98" y1="190.5" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="200.66" x2="335.28" y2="200.66" width="0.1524" layer="91"/>
 <junction x="335.28" y="200.66"/>
-<pinref part="2V83" gate="G$1" pin="2V8"/>
+<pinref part="2V82" gate="G$1" pin="2V8"/>
 <wire x1="347.98" y1="226.06" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
 <junction x="347.98" y="200.66"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="2V4" gate="G$1" pin="2V8"/>
+<pinref part="2V81" gate="G$1" pin="2V8"/>
 <wire x1="132.08" y1="228.6" x2="132.08" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3629,8 +3629,8 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="322.58" y1="177.8" x2="322.58" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="FB"/>
 <wire x1="322.58" y1="180.34" x2="322.58" y2="182.88" width="0.1524" layer="91"/>
@@ -3648,12 +3648,12 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </net>
 <net name="VBAT_SENSE" class="0">
 <segment>
-<pinref part="C6" gate="G$1" pin="C1"/>
+<pinref part="C7" gate="G$1" pin="C1"/>
 <wire x1="195.58" y1="53.34" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="58.42" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="60.96" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
 <junction x="208.28" y="58.42"/>
 <wire x1="195.58" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
@@ -3666,7 +3666,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="91.44" y1="200.66" x2="73.66" y2="200.66" width="0.1524" layer="91"/>
 <label x="68.58" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="!SHDN"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="200.66" x2="68.58" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="190.5" x2="73.66" y2="200.66" width="0.1524" layer="91"/>
 <junction x="73.66" y="200.66"/>
@@ -3675,14 +3675,14 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <net name="N$2" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="C-"/>
-<pinref part="C22" gate="G$1" pin="C2"/>
+<pinref part="C5" gate="G$1" pin="C2"/>
 <wire x1="91.44" y1="177.8" x2="86.36" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="177.8" x2="86.36" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="C22" gate="G$1" pin="C1"/>
+<pinref part="C5" gate="G$1" pin="C1"/>
 <pinref part="U1" gate="G$1" pin="C+"/>
 <wire x1="86.36" y1="190.5" x2="86.36" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="195.58" x2="91.44" y2="195.58" width="0.1524" layer="91"/>
@@ -3704,8 +3704,8 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="127" y1="205.74" x2="180.34" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="185.42" x2="180.34" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
-<pinref part="C23" gate="G$1" pin="C1"/>
-<pinref part="VIN3" gate="G$1" pin="VEXT"/>
+<pinref part="C6" gate="G$1" pin="C1"/>
+<pinref part="VIN1" gate="G$1" pin="VEXT"/>
 <wire x1="180.34" y1="236.22" x2="180.34" y2="205.74" width="0.1524" layer="91"/>
 <junction x="180.34" y="205.74"/>
 </segment>
@@ -3728,21 +3728,21 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <instance part="2V810" gate="G$1" x="111.76" y="81.28" smashed="yes">
 <attribute name="VALUE" x="109.22" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND28" gate="G$1" x="177.8" y="43.18" smashed="yes">
+<instance part="GND23" gate="G$1" x="177.8" y="43.18" smashed="yes">
 <attribute name="VALUE" x="175.006" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="17.78" y="198.12" smashed="yes" rot="R270">
+<instance part="R10" gate="G$1" x="17.78" y="198.12" smashed="yes" rot="R270">
 <attribute name="VALUE" x="14.1224" y="197.4342" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="20.5486" y="197.1294" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V85" gate="G$1" x="17.78" y="203.2" smashed="yes">
+<instance part="2V84" gate="G$1" x="17.78" y="203.2" smashed="yes">
 <attribute name="VALUE" x="15.24" y="200.66" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="S1" gate="S" x="320.04" y="215.9" smashed="yes">
 <attribute name="NAME" x="317.5" y="222.25" size="1.778" layer="95"/>
 <attribute name="VALUE" x="317.5" y="209.55" size="1.778" layer="96"/>
 </instance>
-<instance part="GND34" gate="G$1" x="332.74" y="198.12" smashed="yes">
+<instance part="GND29" gate="G$1" x="332.74" y="198.12" smashed="yes">
 <attribute name="VALUE" x="329.946" y="193.04" size="1.778" layer="96"/>
 </instance>
 <instance part="TC1" gate="-1(VTARGET)" x="347.98" y="149.86" smashed="yes">
@@ -3770,7 +3770,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <instance part="2V816" gate="G$1" x="340.36" y="157.48" smashed="yes">
 <attribute name="VALUE" x="337.82" y="154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND35" gate="G$1" x="340.36" y="121.92" smashed="yes">
+<instance part="GND30" gate="G$1" x="340.36" y="121.92" smashed="yes">
 <attribute name="VALUE" x="337.566" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="L2" gate="G$1" x="99.06" y="66.04" smashed="yes">
@@ -3781,14 +3781,14 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <instance part="1V81" gate="G$1" x="86.36" y="71.12" smashed="yes">
 <attribute name="VALUE" x="83.82" y="68.58" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND31" gate="G$1" x="198.12" y="43.18" smashed="yes">
+<instance part="GND26" gate="G$1" x="198.12" y="43.18" smashed="yes">
 <attribute name="VALUE" x="195.326" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="C16" gate="G$1" x="187.96" y="48.26" smashed="yes" rot="R90">
 <attribute name="VALUE" x="192.2272" y="47.6758" size="1.778" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="185.1914" y="47.3456" size="1.778" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="GND29" gate="G$1" x="187.96" y="43.18" smashed="yes">
+<instance part="GND24" gate="G$1" x="187.96" y="43.18" smashed="yes">
 <attribute name="VALUE" x="185.166" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="2V811" gate="G$1" x="119.38" y="55.88" smashed="yes" rot="R90">
@@ -3798,37 +3798,37 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <attribute name="VALUE" x="82.0928" y="59.0042" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="89.1286" y="59.3344" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND27" gate="G$1" x="86.36" y="43.18" smashed="yes">
+<instance part="GND22" gate="G$1" x="86.36" y="43.18" smashed="yes">
 <attribute name="VALUE" x="83.566" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="C12" gate="G$1" x="17.78" y="241.3" smashed="yes" rot="R270">
 <attribute name="VALUE" x="13.5128" y="241.8842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="20.5486" y="242.2144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V84" gate="G$1" x="17.78" y="246.38" smashed="yes">
+<instance part="2V83" gate="G$1" x="17.78" y="246.38" smashed="yes">
 <attribute name="VALUE" x="15.24" y="243.84" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND24" gate="G$1" x="17.78" y="228.6" smashed="yes">
+<instance part="GND18" gate="G$1" x="17.78" y="228.6" smashed="yes">
 <attribute name="VALUE" x="14.986" y="223.52" size="1.778" layer="96"/>
 </instance>
 <instance part="C13" gate="G$1" x="30.48" y="241.3" smashed="yes" rot="R270">
 <attribute name="VALUE" x="26.2128" y="241.8842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="33.2486" y="242.2144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V86" gate="G$1" x="30.48" y="246.38" smashed="yes">
+<instance part="2V85" gate="G$1" x="30.48" y="246.38" smashed="yes">
 <attribute name="VALUE" x="27.94" y="243.84" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND25" gate="G$1" x="30.48" y="228.6" smashed="yes">
+<instance part="GND19" gate="G$1" x="30.48" y="228.6" smashed="yes">
 <attribute name="VALUE" x="27.686" y="223.52" size="1.778" layer="96"/>
 </instance>
 <instance part="C14" gate="G$1" x="43.18" y="241.3" smashed="yes" rot="R270">
 <attribute name="VALUE" x="38.9128" y="241.8842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="45.9486" y="242.2144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V88" gate="G$1" x="43.18" y="246.38" smashed="yes">
+<instance part="2V87" gate="G$1" x="43.18" y="246.38" smashed="yes">
 <attribute name="VALUE" x="40.64" y="243.84" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND26" gate="G$1" x="43.18" y="228.6" smashed="yes">
+<instance part="GND20" gate="G$1" x="43.18" y="228.6" smashed="yes">
 <attribute name="VALUE" x="40.386" y="223.52" size="1.778" layer="96"/>
 </instance>
 <instance part="U6" gate="G$1" x="322.58" y="66.04" smashed="yes">
@@ -3842,34 +3842,34 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <instance part="2V812" gate="G$1" x="233.68" y="83.82" smashed="yes">
 <attribute name="VALUE" x="231.14" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND32" gate="G$1" x="233.68" y="43.18" smashed="yes">
+<instance part="GND27" gate="G$1" x="233.68" y="43.18" smashed="yes">
 <attribute name="VALUE" x="230.886" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="GND33" gate="G$1" x="289.56" y="43.18" smashed="yes">
+<instance part="GND28" gate="G$1" x="289.56" y="43.18" smashed="yes">
 <attribute name="VALUE" x="286.766" y="38.1" size="1.778" layer="96"/>
 </instance>
 <instance part="2V814" gate="G$1" x="289.56" y="83.82" smashed="yes">
 <attribute name="VALUE" x="287.02" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R16" gate="G$1" x="281.94" y="78.74" smashed="yes" rot="R270">
+<instance part="R15" gate="G$1" x="281.94" y="78.74" smashed="yes" rot="R270">
 <attribute name="VALUE" x="278.2824" y="78.0542" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="284.7086" y="77.7494" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
 <instance part="2V813" gate="G$1" x="281.94" y="83.82" smashed="yes">
 <attribute name="VALUE" x="279.4" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R14" gate="G$1" x="35.56" y="198.12" smashed="yes" rot="R270">
+<instance part="R12" gate="G$1" x="35.56" y="198.12" smashed="yes" rot="R270">
 <attribute name="VALUE" x="31.9024" y="197.4342" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="38.3286" y="197.1294" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V87" gate="G$1" x="35.56" y="203.2" smashed="yes">
+<instance part="2V86" gate="G$1" x="35.56" y="203.2" smashed="yes">
 <attribute name="VALUE" x="33.02" y="200.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R15" gate="G$1" x="45.72" y="198.12" smashed="yes" rot="R270">
+<instance part="R13" gate="G$1" x="45.72" y="198.12" smashed="yes" rot="R270">
 <attribute name="VALUE" x="42.0624" y="197.4342" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="48.4886" y="197.1294" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V89" gate="G$1" x="45.72" y="203.2" smashed="yes">
+<instance part="2V88" gate="G$1" x="45.72" y="203.2" smashed="yes">
 <attribute name="VALUE" x="43.18" y="200.66" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="2V815" gate="G$1" x="330.2" y="83.82" smashed="yes">
@@ -3879,22 +3879,22 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <attribute name="NAME" x="38.1" y="104.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="D3" gate="G$1" x="48.26" y="111.76" smashed="yes">
+<instance part="D1" gate="G$1" x="48.26" y="111.76" smashed="yes">
 <attribute name="NAME" x="51.816" y="107.188" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="53.975" y="107.188" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R23" gate="G$1" x="25.4" y="96.52" smashed="yes">
+<instance part="R11" gate="G$1" x="25.4" y="96.52" smashed="yes">
 <attribute name="VALUE" x="26.0858" y="92.8624" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="26.3906" y="99.2886" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="R24" gate="G$1" x="48.26" y="132.08" smashed="yes" rot="R270">
+<instance part="R14" gate="G$1" x="48.26" y="132.08" smashed="yes" rot="R270">
 <attribute name="VALUE" x="44.6024" y="131.3942" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="51.0286" y="131.0894" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V3" gate="G$1" x="48.26" y="137.16" smashed="yes">
+<instance part="2V89" gate="G$1" x="48.26" y="137.16" smashed="yes">
 <attribute name="VALUE" x="45.72" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND54" gate="G$1" x="48.26" y="83.82" smashed="yes">
+<instance part="GND21" gate="G$1" x="48.26" y="83.82" smashed="yes">
 <attribute name="VALUE" x="45.466" y="78.74" size="1.778" layer="96"/>
 </instance>
 <instance part="U5" gate="G$1" x="165.1" y="215.9" smashed="yes">
@@ -3905,7 +3905,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <attribute name="NAME" x="185.42" y="94.996" size="1.778" layer="95"/>
 <attribute name="VALUE" x="185.42" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="G$1" x="190.5" y="78.74" smashed="yes">
+<instance part="GND25" gate="G$1" x="190.5" y="78.74" smashed="yes">
 <attribute name="VALUE" x="187.706" y="73.66" size="1.778" layer="96"/>
 </instance>
 </instances>
@@ -3914,9 +3914,9 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <nets>
 <net name="2V8" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="198.12" x2="17.78" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="2V85" gate="G$1" pin="2V8"/>
+<pinref part="2V84" gate="G$1" pin="2V8"/>
 </segment>
 <segment>
 <pinref part="TC1" gate="-1(VTARGET)" pin="S"/>
@@ -3945,17 +3945,17 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="C1"/>
-<pinref part="2V84" gate="G$1" pin="2V8"/>
+<pinref part="2V83" gate="G$1" pin="2V8"/>
 <wire x1="17.78" y1="241.3" x2="17.78" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="C1"/>
-<pinref part="2V86" gate="G$1" pin="2V8"/>
+<pinref part="2V85" gate="G$1" pin="2V8"/>
 <wire x1="30.48" y1="241.3" x2="30.48" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="C1"/>
-<pinref part="2V88" gate="G$1" pin="2V8"/>
+<pinref part="2V87" gate="G$1" pin="2V8"/>
 <wire x1="43.18" y1="241.3" x2="43.18" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3970,19 +3970,19 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <pinref part="2V814" gate="G$1" pin="2V8"/>
 </segment>
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="281.94" y1="78.74" x2="281.94" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="2V813" gate="G$1" pin="2V8"/>
 </segment>
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="198.12" x2="35.56" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="2V87" gate="G$1" pin="2V8"/>
+<pinref part="2V86" gate="G$1" pin="2V8"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="198.12" x2="45.72" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="2V89" gate="G$1" pin="2V8"/>
+<pinref part="2V88" gate="G$1" pin="2V8"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="!HOLD!/IO3"/>
@@ -3995,8 +3995,8 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <junction x="330.2" y="58.42"/>
 </segment>
 <segment>
-<pinref part="2V3" gate="G$1" pin="2V8"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="2V89" gate="G$1" pin="2V8"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="137.16" x2="48.26" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4007,66 +4007,66 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="327.66" y1="213.36" x2="327.66" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="S1" gate="S" pin="3"/>
 <wire x1="327.66" y1="215.9" x2="325.12" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="GND34" gate="G$1" pin="GND"/>
+<pinref part="GND29" gate="G$1" pin="GND"/>
 <wire x1="327.66" y1="215.9" x2="332.74" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="215.9" x2="332.74" y2="198.12" width="0.1524" layer="91"/>
 <junction x="327.66" y="215.9"/>
 </segment>
 <segment>
-<pinref part="GND35" gate="G$1" pin="GND"/>
+<pinref part="GND30" gate="G$1" pin="GND"/>
 <wire x1="340.36" y1="127" x2="340.36" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="TC1" gate="-3(GND)" pin="S"/>
 <wire x1="345.44" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND28" gate="G$1" pin="GND"/>
+<pinref part="GND23" gate="G$1" pin="GND"/>
 <wire x1="177.8" y1="43.18" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="VSS@0"/>
 </segment>
 <segment>
-<pinref part="GND29" gate="G$1" pin="GND"/>
+<pinref part="GND24" gate="G$1" pin="GND"/>
 <pinref part="C16" gate="G$1" pin="C1"/>
 <wire x1="187.96" y1="43.18" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND27" gate="G$1" pin="GND"/>
+<pinref part="GND22" gate="G$1" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="C2"/>
 <wire x1="86.36" y1="43.18" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND24" gate="G$1" pin="GND"/>
+<pinref part="GND18" gate="G$1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="C2"/>
 <wire x1="17.78" y1="228.6" x2="17.78" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND25" gate="G$1" pin="GND"/>
+<pinref part="GND19" gate="G$1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="C2"/>
 <wire x1="30.48" y1="228.6" x2="30.48" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND26" gate="G$1" pin="GND"/>
+<pinref part="GND20" gate="G$1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="C2"/>
 <wire x1="43.18" y1="228.6" x2="43.18" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND32" gate="G$1" pin="GND"/>
+<pinref part="GND27" gate="G$1" pin="GND"/>
 <pinref part="C17" gate="G$1" pin="C2"/>
 <wire x1="233.68" y1="43.18" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND33" gate="G$1" pin="GND"/>
+<pinref part="GND28" gate="G$1" pin="GND"/>
 <pinref part="U6" gate="G$1" pin="GND"/>
 <wire x1="289.56" y1="43.18" x2="289.56" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="50.8" x2="292.1" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND54" gate="G$1" pin="GND"/>
+<pinref part="GND21" gate="G$1" pin="GND"/>
 <pinref part="T1" gate="G$1" pin="E"/>
 <wire x1="48.26" y1="83.82" x2="48.26" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND1" gate="G$1" pin="GND"/>
+<pinref part="GND25" gate="G$1" pin="GND"/>
 <pinref part="X1" gate="G$1" pin="GND@0"/>
 <wire x1="190.5" y1="78.74" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="83.82" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
@@ -4077,7 +4077,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="VREGVSS"/>
-<pinref part="GND31" gate="G$1" pin="GND"/>
+<pinref part="GND26" gate="G$1" pin="GND"/>
 <wire x1="170.18" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="66.04" x2="198.12" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -4120,7 +4120,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </net>
 <net name="!RST" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="185.42" x2="17.78" y2="177.8" width="0.1524" layer="91"/>
 <label x="17.78" y="177.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -4213,7 +4213,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </net>
 <net name="I2C0_SCL" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="185.42" x2="45.72" y2="177.8" width="0.1524" layer="91"/>
 <label x="45.72" y="177.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -4225,7 +4225,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </net>
 <net name="I2C0_SDA" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="185.42" x2="35.56" y2="177.8" width="0.1524" layer="91"/>
 <label x="35.56" y="177.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -4240,7 +4240,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <pinref part="U6" gate="G$1" pin="!CS!"/>
 <wire x1="292.1" y1="58.42" x2="281.94" y2="58.42" width="0.1524" layer="91"/>
 <label x="276.86" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="58.42" x2="276.86" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="66.04" x2="281.94" y2="58.42" width="0.1524" layer="91"/>
 <junction x="281.94" y="58.42"/>
@@ -4255,7 +4255,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <segment>
 <wire x1="25.4" y1="96.52" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
 <label x="20.32" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
@@ -4266,21 +4266,21 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <net name="N$11" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="T1" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="106.68" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="114.3" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4391,21 +4391,21 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <attribute name="NAME" x="182.88" y="158.496" size="1.27" layer="95"/>
 <attribute name="VALUE" x="182.88" y="156.21" size="1.27" layer="96"/>
 </instance>
-<instance part="GND38" gate="G$1" x="172.72" y="111.76" smashed="yes">
+<instance part="GND33" gate="G$1" x="172.72" y="111.76" smashed="yes">
 <attribute name="VALUE" x="169.926" y="106.68" size="1.778" layer="96"/>
 </instance>
 <instance part="C18" gate="G$1" x="26.67" y="228.6" smashed="yes" rot="R90">
 <attribute name="VALUE" x="30.9372" y="228.0158" size="1.778" layer="96" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="23.9014" y="227.6856" size="1.778" layer="95" ratio="10" rot="SR90"/>
 </instance>
-<instance part="GND36" gate="G$1" x="26.67" y="223.52" smashed="yes">
+<instance part="GND31" gate="G$1" x="26.67" y="223.52" smashed="yes">
 <attribute name="VALUE" x="23.876" y="218.44" size="1.778" layer="96"/>
 </instance>
 <instance part="RFCON1" gate="G$1" x="246.38" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="246.634" y="158.242" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="246.634" y="155.956" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND39" gate="G$1" x="246.38" y="139.7" smashed="yes">
+<instance part="GND34" gate="G$1" x="246.38" y="139.7" smashed="yes">
 <attribute name="VALUE" x="243.586" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="2V819" gate="G$1" x="172.72" y="175.26" smashed="yes">
@@ -4414,15 +4414,15 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <instance part="2V817" gate="G$1" x="26.67" y="241.3" smashed="yes">
 <attribute name="VALUE" x="24.13" y="238.76" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R17" gate="G$1" x="157.48" y="129.54" smashed="yes" rot="R270">
+<instance part="R16" gate="G$1" x="157.48" y="129.54" smashed="yes" rot="R270">
 <attribute name="VALUE" x="153.8224" y="128.8542" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="160.2486" y="128.5494" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R18" gate="G$1" x="162.56" y="167.64" smashed="yes" rot="R270">
+<instance part="R17" gate="G$1" x="162.56" y="167.64" smashed="yes" rot="R270">
 <attribute name="VALUE" x="158.9024" y="166.9542" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="165.3286" y="166.6494" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND37" gate="G$1" x="157.48" y="111.76" smashed="yes">
+<instance part="GND32" gate="G$1" x="157.48" y="111.76" smashed="yes">
 <attribute name="VALUE" x="154.686" y="106.68" size="1.778" layer="96"/>
 </instance>
 <instance part="2V818" gate="G$1" x="162.56" y="175.26" smashed="yes">
@@ -4445,7 +4445,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="172.72" y1="152.4" x2="172.72" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="2V818" gate="G$1" pin="2V8"/>
 <wire x1="162.56" y1="167.64" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
 </segment>
@@ -4453,23 +4453,23 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <net name="GND" class="0">
 <segment>
 <pinref part="C18" gate="G$1" pin="C1"/>
-<pinref part="GND36" gate="G$1" pin="GND"/>
+<pinref part="GND31" gate="G$1" pin="GND"/>
 <wire x1="26.67" y1="228.6" x2="26.67" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND39" gate="G$1" pin="GND"/>
+<pinref part="GND34" gate="G$1" pin="GND"/>
 <pinref part="RFCON1" gate="G$1" pin="GND"/>
 <wire x1="246.38" y1="139.7" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U7" gate="U1" pin="GND"/>
-<pinref part="GND38" gate="G$1" pin="GND"/>
+<pinref part="GND33" gate="G$1" pin="GND"/>
 <wire x1="177.8" y1="132.08" x2="172.72" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="132.08" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND37" gate="G$1" pin="GND"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="GND32" gate="G$1" pin="GND"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="111.76" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4478,7 +4478,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="177.8" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
 <label x="151.13" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U7" gate="U1" pin="!CS"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="137.16" x2="151.13" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="154.94" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
 <junction x="162.56" y="137.16"/>
@@ -4517,7 +4517,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="177.8" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
 <label x="123.19" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U7" gate="U1" pin="RST"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="149.86" x2="123.19" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="129.54" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
 <junction x="157.48" y="149.86"/>
@@ -4549,278 +4549,278 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <attribute name="NAME" x="48.26" y="232.156" size="1.27" layer="95"/>
 <attribute name="VALUE" x="48.26" y="229.87" size="1.27" layer="96"/>
 </instance>
-<instance part="2V822" gate="G$1" x="38.1" y="236.22" smashed="yes">
+<instance part="2V821" gate="G$1" x="38.1" y="236.22" smashed="yes">
 <attribute name="VALUE" x="35.56" y="233.68" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND42" gate="G$1" x="38.1" y="213.36" smashed="yes">
+<instance part="GND40" gate="G$1" x="38.1" y="213.36" smashed="yes">
 <attribute name="VALUE" x="35.306" y="208.28" size="1.778" layer="96"/>
 </instance>
-<instance part="C20" gate="G$1" x="25.4" y="228.6" smashed="yes" rot="R270">
+<instance part="C21" gate="G$1" x="25.4" y="228.6" smashed="yes" rot="R270">
 <attribute name="VALUE" x="21.1328" y="229.1842" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="28.1686" y="229.5144" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V821" gate="G$1" x="25.4" y="236.22" smashed="yes">
+<instance part="2V820" gate="G$1" x="25.4" y="236.22" smashed="yes">
 <attribute name="VALUE" x="22.86" y="233.68" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND41" gate="G$1" x="25.4" y="213.36" smashed="yes">
+<instance part="GND37" gate="G$1" x="25.4" y="213.36" smashed="yes">
 <attribute name="VALUE" x="22.606" y="208.28" size="1.778" layer="96"/>
 </instance>
-<instance part="CON1" gate="-1" x="60.96" y="149.86" smashed="yes">
+<instance part="CON2" gate="-1" x="60.96" y="149.86" smashed="yes">
 <attribute name="NAME" x="63.5" y="149.098" size="1.524" layer="95"/>
 <attribute name="VALUE" x="60.198" y="151.257" size="1.524" layer="96"/>
 </instance>
-<instance part="CON1" gate="-2" x="60.96" y="147.32" smashed="yes">
+<instance part="CON2" gate="-2" x="60.96" y="147.32" smashed="yes">
 <attribute name="NAME" x="63.5" y="146.558" size="1.524" layer="95"/>
 </instance>
-<instance part="CON1" gate="-3" x="60.96" y="144.78" smashed="yes">
+<instance part="CON2" gate="-3" x="60.96" y="144.78" smashed="yes">
 <attribute name="NAME" x="63.5" y="144.018" size="1.524" layer="95"/>
 </instance>
-<instance part="GND51" gate="G$1" x="53.34" y="124.46" smashed="yes">
+<instance part="GND41" gate="G$1" x="53.34" y="124.46" smashed="yes">
 <attribute name="VALUE" x="50.546" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="C24" gate="G$1" x="33.02" y="142.24" smashed="yes" rot="R270">
+<instance part="C22" gate="G$1" x="33.02" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="28.7528" y="142.8242" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="35.7886" y="143.1544" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R19" gate="G$1" x="40.64" y="147.32" smashed="yes">
+<instance part="R18" gate="G$1" x="40.64" y="147.32" smashed="yes">
 <attribute name="VALUE" x="41.3258" y="143.6624" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="41.6306" y="150.0886" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="GND44" gate="G$1" x="33.02" y="124.46" smashed="yes">
+<instance part="GND38" gate="G$1" x="33.02" y="124.46" smashed="yes">
 <attribute name="VALUE" x="30.226" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="VIN4" gate="G$1" x="53.34" y="170.18" smashed="yes">
 <attribute name="VALUE" x="50.8" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON2" gate="-1" x="60.96" y="81.28" smashed="yes">
+<instance part="CON3" gate="-1" x="60.96" y="81.28" smashed="yes">
 <attribute name="NAME" x="63.5" y="80.518" size="1.524" layer="95"/>
 <attribute name="VALUE" x="60.198" y="82.677" size="1.524" layer="96"/>
 </instance>
-<instance part="CON2" gate="-2" x="60.96" y="78.74" smashed="yes">
+<instance part="CON3" gate="-2" x="60.96" y="78.74" smashed="yes">
 <attribute name="NAME" x="63.5" y="77.978" size="1.524" layer="95"/>
 </instance>
-<instance part="CON2" gate="-3" x="60.96" y="76.2" smashed="yes">
+<instance part="CON3" gate="-3" x="60.96" y="76.2" smashed="yes">
 <attribute name="NAME" x="63.5" y="75.438" size="1.524" layer="95"/>
 </instance>
-<instance part="GND45" gate="G$1" x="53.34" y="55.88" smashed="yes">
+<instance part="GND42" gate="G$1" x="53.34" y="55.88" smashed="yes">
 <attribute name="VALUE" x="50.546" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="C25" gate="G$1" x="33.02" y="73.66" smashed="yes" rot="R270">
+<instance part="C23" gate="G$1" x="33.02" y="73.66" smashed="yes" rot="R270">
 <attribute name="VALUE" x="28.7528" y="74.2442" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="35.7886" y="74.5744" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R20" gate="G$1" x="40.64" y="78.74" smashed="yes">
+<instance part="R19" gate="G$1" x="40.64" y="78.74" smashed="yes">
 <attribute name="VALUE" x="41.3258" y="75.0824" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="41.6306" y="81.5086" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="GND47" gate="G$1" x="33.02" y="55.88" smashed="yes">
+<instance part="GND39" gate="G$1" x="33.02" y="55.88" smashed="yes">
 <attribute name="VALUE" x="30.226" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="VIN5" gate="G$1" x="53.34" y="101.6" smashed="yes">
 <attribute name="VALUE" x="50.8" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON3" gate="-1" x="129.54" y="149.86" smashed="yes">
+<instance part="CON4" gate="-1" x="129.54" y="149.86" smashed="yes">
 <attribute name="NAME" x="132.08" y="149.098" size="1.524" layer="95"/>
 <attribute name="VALUE" x="128.778" y="151.257" size="1.524" layer="96"/>
 </instance>
-<instance part="CON3" gate="-2" x="129.54" y="147.32" smashed="yes">
+<instance part="CON4" gate="-2" x="129.54" y="147.32" smashed="yes">
 <attribute name="NAME" x="132.08" y="146.558" size="1.524" layer="95"/>
 </instance>
-<instance part="CON3" gate="-3" x="129.54" y="144.78" smashed="yes">
+<instance part="CON4" gate="-3" x="129.54" y="144.78" smashed="yes">
 <attribute name="NAME" x="132.08" y="144.018" size="1.524" layer="95"/>
 </instance>
-<instance part="GND48" gate="G$1" x="121.92" y="124.46" smashed="yes">
+<instance part="GND47" gate="G$1" x="121.92" y="124.46" smashed="yes">
 <attribute name="VALUE" x="119.126" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="C26" gate="G$1" x="101.6" y="142.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="97.3328" y="142.8242" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="104.3686" y="143.1544" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R21" gate="G$1" x="109.22" y="147.32" smashed="yes">
+<instance part="R20" gate="G$1" x="109.22" y="147.32" smashed="yes">
 <attribute name="VALUE" x="109.9058" y="143.6624" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="110.2106" y="150.0886" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="GND49" gate="G$1" x="101.6" y="124.46" smashed="yes">
+<instance part="GND45" gate="G$1" x="101.6" y="124.46" smashed="yes">
 <attribute name="VALUE" x="98.806" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="VIN6" gate="G$1" x="121.92" y="170.18" smashed="yes">
+<instance part="VIN8" gate="G$1" x="121.92" y="170.18" smashed="yes">
 <attribute name="VALUE" x="119.38" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON4" gate="-1" x="129.54" y="81.28" smashed="yes">
+<instance part="CON5" gate="-1" x="129.54" y="81.28" smashed="yes">
 <attribute name="NAME" x="132.08" y="80.518" size="1.524" layer="95"/>
 <attribute name="VALUE" x="128.778" y="82.677" size="1.524" layer="96"/>
 </instance>
-<instance part="CON4" gate="-2" x="129.54" y="78.74" smashed="yes">
+<instance part="CON5" gate="-2" x="129.54" y="78.74" smashed="yes">
 <attribute name="NAME" x="132.08" y="77.978" size="1.524" layer="95"/>
 </instance>
-<instance part="CON4" gate="-3" x="129.54" y="76.2" smashed="yes">
+<instance part="CON5" gate="-3" x="129.54" y="76.2" smashed="yes">
 <attribute name="NAME" x="132.08" y="75.438" size="1.524" layer="95"/>
 </instance>
-<instance part="GND52" gate="G$1" x="121.92" y="55.88" smashed="yes">
+<instance part="GND48" gate="G$1" x="121.92" y="55.88" smashed="yes">
 <attribute name="VALUE" x="119.126" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="C27" gate="G$1" x="101.6" y="73.66" smashed="yes" rot="R270">
 <attribute name="VALUE" x="97.3328" y="74.2442" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="104.3686" y="74.5744" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R22" gate="G$1" x="109.22" y="78.74" smashed="yes">
+<instance part="R21" gate="G$1" x="109.22" y="78.74" smashed="yes">
 <attribute name="VALUE" x="109.9058" y="75.0824" size="1.778" layer="96" ratio="10" rot="SR0"/>
 <attribute name="NAME" x="110.2106" y="81.5086" size="1.778" layer="95" ratio="10" rot="SR0"/>
 </instance>
-<instance part="GND53" gate="G$1" x="101.6" y="55.88" smashed="yes">
+<instance part="GND46" gate="G$1" x="101.6" y="55.88" smashed="yes">
 <attribute name="VALUE" x="98.806" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="VIN7" gate="G$1" x="121.92" y="101.6" smashed="yes">
+<instance part="VIN9" gate="G$1" x="121.92" y="101.6" smashed="yes">
 <attribute name="VALUE" x="119.38" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON5" gate="-1" x="218.44" y="149.86" smashed="yes">
+<instance part="CON6" gate="-1" x="218.44" y="149.86" smashed="yes">
 <attribute name="NAME" x="220.98" y="149.098" size="1.524" layer="95"/>
 <attribute name="VALUE" x="217.678" y="151.257" size="1.524" layer="96"/>
 </instance>
-<instance part="CON5" gate="-2" x="218.44" y="147.32" smashed="yes">
+<instance part="CON6" gate="-2" x="218.44" y="147.32" smashed="yes">
 <attribute name="NAME" x="220.98" y="146.558" size="1.524" layer="95"/>
 </instance>
-<instance part="CON5" gate="-3" x="218.44" y="144.78" smashed="yes">
+<instance part="CON6" gate="-3" x="218.44" y="144.78" smashed="yes">
 <attribute name="NAME" x="220.98" y="144.018" size="1.524" layer="95"/>
 </instance>
-<instance part="CON5" gate="-4" x="218.44" y="142.24" smashed="yes">
+<instance part="CON6" gate="-4" x="218.44" y="142.24" smashed="yes">
 <attribute name="NAME" x="220.98" y="141.478" size="1.524" layer="95"/>
 </instance>
-<instance part="GND30" gate="G$1" x="210.82" y="124.46" smashed="yes">
+<instance part="GND50" gate="G$1" x="210.82" y="124.46" smashed="yes">
 <attribute name="VALUE" x="208.026" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="VIN8" gate="G$1" x="210.82" y="170.18" smashed="yes">
+<instance part="VIN10" gate="G$1" x="210.82" y="170.18" smashed="yes">
 <attribute name="VALUE" x="208.28" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U9" gate="G$1" x="297.18" y="231.14" smashed="yes">
 <attribute name="NAME" x="274.32" y="234.696" size="1.27" layer="95"/>
 <attribute name="VALUE" x="274.32" y="232.41" size="1.27" layer="96"/>
 </instance>
-<instance part="R25" gate="G$1" x="314.96" y="238.76" smashed="yes" rot="R270">
+<instance part="R22" gate="G$1" x="314.96" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="311.3024" y="238.0742" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="317.7286" y="237.7694" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R26" gate="G$1" x="325.12" y="238.76" smashed="yes" rot="R270">
+<instance part="R23" gate="G$1" x="325.12" y="238.76" smashed="yes" rot="R270">
 <attribute name="VALUE" x="321.4624" y="238.0742" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="327.8886" y="237.7694" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="VIN9" gate="G$1" x="314.96" y="243.84" smashed="yes">
+<instance part="VIN14" gate="G$1" x="314.96" y="243.84" smashed="yes">
 <attribute name="VALUE" x="312.42" y="241.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VIN10" gate="G$1" x="325.12" y="243.84" smashed="yes">
+<instance part="VIN15" gate="G$1" x="325.12" y="243.84" smashed="yes">
 <attribute name="VALUE" x="322.58" y="241.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="2V5" gate="G$1" x="264.16" y="243.84" smashed="yes">
+<instance part="2V823" gate="G$1" x="264.16" y="243.84" smashed="yes">
 <attribute name="VALUE" x="261.62" y="241.3" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C28" gate="G$1" x="210.82" y="218.44" smashed="yes" rot="R270">
 <attribute name="VALUE" x="206.5528" y="219.0242" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="213.5886" y="219.3544" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="2V6" gate="G$1" x="210.82" y="226.06" smashed="yes">
+<instance part="2V822" gate="G$1" x="210.82" y="226.06" smashed="yes">
 <attribute name="VALUE" x="208.28" y="223.52" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND55" gate="G$1" x="210.82" y="203.2" smashed="yes">
+<instance part="GND49" gate="G$1" x="210.82" y="203.2" smashed="yes">
 <attribute name="VALUE" x="208.026" y="198.12" size="1.778" layer="96"/>
 </instance>
-<instance part="GND56" gate="G$1" x="264.16" y="185.42" smashed="yes">
+<instance part="GND52" gate="G$1" x="264.16" y="185.42" smashed="yes">
 <attribute name="VALUE" x="261.366" y="180.34" size="1.778" layer="96"/>
 </instance>
-<instance part="CON6" gate="-1" x="218.44" y="81.28" smashed="yes">
+<instance part="CON7" gate="-1" x="218.44" y="81.28" smashed="yes">
 <attribute name="NAME" x="220.98" y="80.518" size="1.524" layer="95"/>
 <attribute name="VALUE" x="217.678" y="82.677" size="1.524" layer="96"/>
 </instance>
-<instance part="CON6" gate="-2" x="218.44" y="78.74" smashed="yes">
+<instance part="CON7" gate="-2" x="218.44" y="78.74" smashed="yes">
 <attribute name="NAME" x="220.98" y="77.978" size="1.524" layer="95"/>
 </instance>
-<instance part="CON6" gate="-3" x="218.44" y="76.2" smashed="yes">
+<instance part="CON7" gate="-3" x="218.44" y="76.2" smashed="yes">
 <attribute name="NAME" x="220.98" y="75.438" size="1.524" layer="95"/>
 </instance>
-<instance part="CON6" gate="-4" x="218.44" y="73.66" smashed="yes">
+<instance part="CON7" gate="-4" x="218.44" y="73.66" smashed="yes">
 <attribute name="NAME" x="220.98" y="72.898" size="1.524" layer="95"/>
 </instance>
-<instance part="GND57" gate="G$1" x="210.82" y="55.88" smashed="yes">
+<instance part="GND51" gate="G$1" x="210.82" y="55.88" smashed="yes">
 <attribute name="VALUE" x="208.026" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="VIN11" gate="G$1" x="210.82" y="101.6" smashed="yes">
 <attribute name="VALUE" x="208.28" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON7" gate="-1" x="289.56" y="149.86" smashed="yes">
+<instance part="CON8" gate="-1" x="289.56" y="149.86" smashed="yes">
 <attribute name="NAME" x="292.1" y="149.098" size="1.524" layer="95"/>
 <attribute name="VALUE" x="288.798" y="151.257" size="1.524" layer="96"/>
 </instance>
-<instance part="CON7" gate="-2" x="289.56" y="147.32" smashed="yes">
+<instance part="CON8" gate="-2" x="289.56" y="147.32" smashed="yes">
 <attribute name="NAME" x="292.1" y="146.558" size="1.524" layer="95"/>
 </instance>
-<instance part="CON7" gate="-3" x="289.56" y="144.78" smashed="yes">
+<instance part="CON8" gate="-3" x="289.56" y="144.78" smashed="yes">
 <attribute name="NAME" x="292.1" y="144.018" size="1.524" layer="95"/>
 </instance>
-<instance part="CON7" gate="-4" x="289.56" y="142.24" smashed="yes">
+<instance part="CON8" gate="-4" x="289.56" y="142.24" smashed="yes">
 <attribute name="NAME" x="292.1" y="141.478" size="1.524" layer="95"/>
 </instance>
-<instance part="GND58" gate="G$1" x="281.94" y="124.46" smashed="yes">
+<instance part="GND53" gate="G$1" x="281.94" y="124.46" smashed="yes">
 <attribute name="VALUE" x="279.146" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="VIN12" gate="G$1" x="281.94" y="170.18" smashed="yes">
 <attribute name="VALUE" x="279.4" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="CON8" gate="-1" x="289.56" y="81.28" smashed="yes">
+<instance part="CON9" gate="-1" x="289.56" y="81.28" smashed="yes">
 <attribute name="NAME" x="292.1" y="80.518" size="1.524" layer="95"/>
 <attribute name="VALUE" x="288.798" y="82.677" size="1.524" layer="96"/>
 </instance>
-<instance part="CON8" gate="-2" x="289.56" y="78.74" smashed="yes">
+<instance part="CON9" gate="-2" x="289.56" y="78.74" smashed="yes">
 <attribute name="NAME" x="292.1" y="77.978" size="1.524" layer="95"/>
 </instance>
-<instance part="CON8" gate="-3" x="289.56" y="76.2" smashed="yes">
+<instance part="CON9" gate="-3" x="289.56" y="76.2" smashed="yes">
 <attribute name="NAME" x="292.1" y="75.438" size="1.524" layer="95"/>
 </instance>
-<instance part="CON8" gate="-4" x="289.56" y="73.66" smashed="yes">
+<instance part="CON9" gate="-4" x="289.56" y="73.66" smashed="yes">
 <attribute name="NAME" x="292.1" y="72.898" size="1.524" layer="95"/>
 </instance>
-<instance part="GND59" gate="G$1" x="281.94" y="55.88" smashed="yes">
+<instance part="GND54" gate="G$1" x="281.94" y="55.88" smashed="yes">
 <attribute name="VALUE" x="279.146" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="VIN13" gate="G$1" x="281.94" y="101.6" smashed="yes">
 <attribute name="VALUE" x="279.4" y="99.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="VIN1" gate="G$1" x="15.24" y="187.96" smashed="yes">
+<instance part="VIN2" gate="G$1" x="15.24" y="187.96" smashed="yes">
 <attribute name="VALUE" x="12.7" y="185.42" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C2" gate="G$1" x="15.24" y="180.34" smashed="yes" rot="R270">
+<instance part="C19" gate="G$1" x="15.24" y="180.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="10.9728" y="180.9242" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="18.0086" y="181.2544" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND2" gate="G$1" x="15.24" y="165.1" smashed="yes">
+<instance part="GND35" gate="G$1" x="15.24" y="165.1" smashed="yes">
 <attribute name="VALUE" x="12.446" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="VIN2" gate="G$1" x="83.82" y="187.96" smashed="yes">
+<instance part="VIN6" gate="G$1" x="83.82" y="187.96" smashed="yes">
 <attribute name="VALUE" x="81.28" y="185.42" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="83.82" y="180.34" smashed="yes" rot="R270">
+<instance part="C24" gate="G$1" x="83.82" y="180.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="79.5528" y="180.9242" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="86.5886" y="181.2544" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND3" gate="G$1" x="83.82" y="165.1" smashed="yes">
+<instance part="GND43" gate="G$1" x="83.82" y="165.1" smashed="yes">
 <attribute name="VALUE" x="81.026" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="VIN14" gate="G$1" x="83.82" y="116.84" smashed="yes">
+<instance part="VIN7" gate="G$1" x="83.82" y="116.84" smashed="yes">
 <attribute name="VALUE" x="81.28" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C5" gate="G$1" x="83.82" y="109.22" smashed="yes" rot="R270">
+<instance part="C25" gate="G$1" x="83.82" y="109.22" smashed="yes" rot="R270">
 <attribute name="VALUE" x="79.5528" y="109.8042" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="86.5886" y="110.1344" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND4" gate="G$1" x="83.82" y="93.98" smashed="yes">
+<instance part="GND44" gate="G$1" x="83.82" y="93.98" smashed="yes">
 <attribute name="VALUE" x="81.026" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="VIN15" gate="G$1" x="17.78" y="116.84" smashed="yes">
+<instance part="VIN3" gate="G$1" x="17.78" y="116.84" smashed="yes">
 <attribute name="VALUE" x="15.24" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C7" gate="G$1" x="17.78" y="109.22" smashed="yes" rot="R270">
+<instance part="C20" gate="G$1" x="17.78" y="109.22" smashed="yes" rot="R270">
 <attribute name="VALUE" x="13.5128" y="109.8042" size="1.778" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="20.5486" y="110.1344" size="1.778" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="GND6" gate="G$1" x="17.78" y="93.98" smashed="yes">
+<instance part="GND36" gate="G$1" x="17.78" y="93.98" smashed="yes">
 <attribute name="VALUE" x="14.986" y="88.9" size="1.778" layer="96"/>
 </instance>
 </instances>
@@ -4829,73 +4829,73 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="GND41" gate="G$1" pin="GND"/>
-<pinref part="C20" gate="G$1" pin="C2"/>
+<pinref part="GND37" gate="G$1" pin="GND"/>
+<pinref part="C21" gate="G$1" pin="C2"/>
 <wire x1="25.4" y1="213.36" x2="25.4" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="GND"/>
-<pinref part="GND42" gate="G$1" pin="GND"/>
+<pinref part="GND40" gate="G$1" pin="GND"/>
 <wire x1="43.18" y1="220.98" x2="38.1" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="220.98" x2="38.1" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND51" gate="G$1" pin="GND"/>
-<pinref part="CON1" gate="-3" pin="S"/>
+<pinref part="GND41" gate="G$1" pin="GND"/>
+<pinref part="CON2" gate="-3" pin="S"/>
 <wire x1="53.34" y1="124.46" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="144.78" x2="58.42" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND44" gate="G$1" pin="GND"/>
-<pinref part="C24" gate="G$1" pin="C2"/>
+<pinref part="GND38" gate="G$1" pin="GND"/>
+<pinref part="C22" gate="G$1" pin="C2"/>
 <wire x1="33.02" y1="124.46" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND45" gate="G$1" pin="GND"/>
-<pinref part="CON2" gate="-3" pin="S"/>
+<pinref part="GND42" gate="G$1" pin="GND"/>
+<pinref part="CON3" gate="-3" pin="S"/>
 <wire x1="53.34" y1="55.88" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND47" gate="G$1" pin="GND"/>
-<pinref part="C25" gate="G$1" pin="C2"/>
+<pinref part="GND39" gate="G$1" pin="GND"/>
+<pinref part="C23" gate="G$1" pin="C2"/>
 <wire x1="33.02" y1="55.88" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND48" gate="G$1" pin="GND"/>
-<pinref part="CON3" gate="-3" pin="S"/>
+<pinref part="GND47" gate="G$1" pin="GND"/>
+<pinref part="CON4" gate="-3" pin="S"/>
 <wire x1="121.92" y1="124.46" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND49" gate="G$1" pin="GND"/>
+<pinref part="GND45" gate="G$1" pin="GND"/>
 <pinref part="C26" gate="G$1" pin="C2"/>
 <wire x1="101.6" y1="124.46" x2="101.6" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND52" gate="G$1" pin="GND"/>
-<pinref part="CON4" gate="-3" pin="S"/>
+<pinref part="GND48" gate="G$1" pin="GND"/>
+<pinref part="CON5" gate="-3" pin="S"/>
 <wire x1="121.92" y1="55.88" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND53" gate="G$1" pin="GND"/>
+<pinref part="GND46" gate="G$1" pin="GND"/>
 <pinref part="C27" gate="G$1" pin="C2"/>
 <wire x1="101.6" y1="55.88" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CON5" gate="-4" pin="S"/>
-<pinref part="GND30" gate="G$1" pin="GND"/>
+<pinref part="CON6" gate="-4" pin="S"/>
+<pinref part="GND50" gate="G$1" pin="GND"/>
 <wire x1="215.9" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="142.24" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND55" gate="G$1" pin="GND"/>
+<pinref part="GND49" gate="G$1" pin="GND"/>
 <pinref part="C28" gate="G$1" pin="C2"/>
 <wire x1="210.82" y1="203.2" x2="210.82" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND56" gate="G$1" pin="GND"/>
+<pinref part="GND52" gate="G$1" pin="GND"/>
 <pinref part="U9" gate="G$1" pin="GND"/>
 <wire x1="264.16" y1="185.42" x2="264.16" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="193.04" x2="269.24" y2="193.04" width="0.1524" layer="91"/>
@@ -4909,65 +4909,65 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <junction x="264.16" y="200.66"/>
 </segment>
 <segment>
-<pinref part="CON6" gate="-4" pin="S"/>
-<pinref part="GND57" gate="G$1" pin="GND"/>
+<pinref part="CON7" gate="-4" pin="S"/>
+<pinref part="GND51" gate="G$1" pin="GND"/>
 <wire x1="215.9" y1="73.66" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="73.66" x2="210.82" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CON7" gate="-4" pin="S"/>
-<pinref part="GND58" gate="G$1" pin="GND"/>
+<pinref part="CON8" gate="-4" pin="S"/>
+<pinref part="GND53" gate="G$1" pin="GND"/>
 <wire x1="287.02" y1="142.24" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="142.24" x2="281.94" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CON8" gate="-4" pin="S"/>
-<pinref part="GND59" gate="G$1" pin="GND"/>
+<pinref part="CON9" gate="-4" pin="S"/>
+<pinref part="GND54" gate="G$1" pin="GND"/>
 <wire x1="287.02" y1="73.66" x2="281.94" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="73.66" x2="281.94" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND2" gate="G$1" pin="GND"/>
-<pinref part="C2" gate="G$1" pin="C2"/>
+<pinref part="GND35" gate="G$1" pin="GND"/>
+<pinref part="C19" gate="G$1" pin="C2"/>
 <wire x1="15.24" y1="165.1" x2="15.24" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND3" gate="G$1" pin="GND"/>
-<pinref part="C4" gate="G$1" pin="C2"/>
+<pinref part="GND43" gate="G$1" pin="GND"/>
+<pinref part="C24" gate="G$1" pin="C2"/>
 <wire x1="83.82" y1="165.1" x2="83.82" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND4" gate="G$1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="C2"/>
+<pinref part="GND44" gate="G$1" pin="GND"/>
+<pinref part="C25" gate="G$1" pin="C2"/>
 <wire x1="83.82" y1="93.98" x2="83.82" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND6" gate="G$1" pin="GND"/>
-<pinref part="C7" gate="G$1" pin="C2"/>
+<pinref part="GND36" gate="G$1" pin="GND"/>
+<pinref part="C20" gate="G$1" pin="C2"/>
 <wire x1="17.78" y1="93.98" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="2V8" class="0">
 <segment>
-<pinref part="C20" gate="G$1" pin="C1"/>
-<pinref part="2V821" gate="G$1" pin="2V8"/>
+<pinref part="C21" gate="G$1" pin="C1"/>
+<pinref part="2V820" gate="G$1" pin="2V8"/>
 <wire x1="25.4" y1="228.6" x2="25.4" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="VDD"/>
-<pinref part="2V822" gate="G$1" pin="2V8"/>
+<pinref part="2V821" gate="G$1" pin="2V8"/>
 <wire x1="43.18" y1="226.06" x2="38.1" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="226.06" x2="38.1" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="VCC"/>
-<pinref part="2V5" gate="G$1" pin="2V8"/>
+<pinref part="2V823" gate="G$1" pin="2V8"/>
 <wire x1="269.24" y1="228.6" x2="264.16" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="228.6" x2="264.16" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="C1"/>
-<pinref part="2V6" gate="G$1" pin="2V8"/>
+<pinref part="2V822" gate="G$1" pin="2V8"/>
 <wire x1="210.82" y1="218.44" x2="210.82" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -4997,8 +4997,8 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </net>
 <net name="HSENS1" class="0">
 <segment>
-<pinref part="C24" gate="G$1" pin="C1"/>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="C1"/>
+<pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="142.24" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="147.32" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
@@ -5008,116 +5008,116 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="CON1" gate="-2" pin="S"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="CON2" gate="-2" pin="S"/>
 <wire x1="53.34" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VEXT" class="0">
 <segment>
-<pinref part="CON1" gate="-1" pin="S"/>
+<pinref part="CON2" gate="-1" pin="S"/>
 <wire x1="58.42" y1="149.86" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="149.86" x2="53.34" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="VIN4" gate="G$1" pin="VEXT"/>
 </segment>
 <segment>
-<pinref part="CON2" gate="-1" pin="S"/>
+<pinref part="CON3" gate="-1" pin="S"/>
 <wire x1="58.42" y1="81.28" x2="53.34" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="81.28" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="VIN5" gate="G$1" pin="VEXT"/>
 </segment>
 <segment>
-<pinref part="CON3" gate="-1" pin="S"/>
+<pinref part="CON4" gate="-1" pin="S"/>
 <wire x1="127" y1="149.86" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="149.86" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="VIN6" gate="G$1" pin="VEXT"/>
-</segment>
-<segment>
-<pinref part="CON4" gate="-1" pin="S"/>
-<wire x1="127" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="81.28" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="VIN7" gate="G$1" pin="VEXT"/>
+<pinref part="VIN8" gate="G$1" pin="VEXT"/>
 </segment>
 <segment>
 <pinref part="CON5" gate="-1" pin="S"/>
-<pinref part="VIN8" gate="G$1" pin="VEXT"/>
+<wire x1="127" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="81.28" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="VIN9" gate="G$1" pin="VEXT"/>
+</segment>
+<segment>
+<pinref part="CON6" gate="-1" pin="S"/>
+<pinref part="VIN10" gate="G$1" pin="VEXT"/>
 <wire x1="215.9" y1="149.86" x2="210.82" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="149.86" x2="210.82" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="VIN9" gate="G$1" pin="VEXT"/>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="VIN14" gate="G$1" pin="VEXT"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="314.96" y1="243.84" x2="314.96" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R26" gate="G$1" pin="2"/>
-<pinref part="VIN10" gate="G$1" pin="VEXT"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="VIN15" gate="G$1" pin="VEXT"/>
 <wire x1="325.12" y1="238.76" x2="325.12" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CON6" gate="-1" pin="S"/>
+<pinref part="CON7" gate="-1" pin="S"/>
 <pinref part="VIN11" gate="G$1" pin="VEXT"/>
 <wire x1="215.9" y1="81.28" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="81.28" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CON7" gate="-1" pin="S"/>
+<pinref part="CON8" gate="-1" pin="S"/>
 <pinref part="VIN12" gate="G$1" pin="VEXT"/>
 <wire x1="287.02" y1="149.86" x2="281.94" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="149.86" x2="281.94" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CON8" gate="-1" pin="S"/>
+<pinref part="CON9" gate="-1" pin="S"/>
 <pinref part="VIN13" gate="G$1" pin="VEXT"/>
 <wire x1="287.02" y1="81.28" x2="281.94" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="81.28" x2="281.94" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="VIN1" gate="G$1" pin="VEXT"/>
-<pinref part="C2" gate="G$1" pin="C1"/>
+<pinref part="VIN2" gate="G$1" pin="VEXT"/>
+<pinref part="C19" gate="G$1" pin="C1"/>
 <wire x1="15.24" y1="187.96" x2="15.24" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="VIN2" gate="G$1" pin="VEXT"/>
-<pinref part="C4" gate="G$1" pin="C1"/>
+<pinref part="VIN6" gate="G$1" pin="VEXT"/>
+<pinref part="C24" gate="G$1" pin="C1"/>
 <wire x1="83.82" y1="187.96" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="VIN14" gate="G$1" pin="VEXT"/>
-<pinref part="C5" gate="G$1" pin="C1"/>
+<pinref part="VIN7" gate="G$1" pin="VEXT"/>
+<pinref part="C25" gate="G$1" pin="C1"/>
 <wire x1="83.82" y1="116.84" x2="83.82" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="VIN15" gate="G$1" pin="VEXT"/>
-<pinref part="C7" gate="G$1" pin="C1"/>
+<pinref part="VIN3" gate="G$1" pin="VEXT"/>
+<pinref part="C20" gate="G$1" pin="C1"/>
 <wire x1="17.78" y1="116.84" x2="17.78" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="CON2" gate="-2" pin="S"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="CON3" gate="-2" pin="S"/>
 <wire x1="53.34" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="CON3" gate="-2" pin="S"/>
+<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="CON4" gate="-2" pin="S"/>
 <wire x1="121.92" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="R22" gate="G$1" pin="1"/>
-<pinref part="CON4" gate="-2" pin="S"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="CON5" gate="-2" pin="S"/>
 <wire x1="121.92" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="HSENS3" class="0">
 <segment>
 <pinref part="C26" gate="G$1" pin="C1"/>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="142.24" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
@@ -5128,7 +5128,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <net name="HSENS4" class="0">
 <segment>
 <pinref part="C27" gate="G$1" pin="C1"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="73.66" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
@@ -5138,8 +5138,8 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </net>
 <net name="HSENS2" class="0">
 <segment>
-<pinref part="C25" gate="G$1" pin="C1"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="C1"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="73.66" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
@@ -5150,7 +5150,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <net name="I2C0_SCL_EXT" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="SCLOUT"/>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="210.82" x2="325.12" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="210.82" x2="325.12" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="210.82" x2="330.2" y2="210.82" width="0.1524" layer="91"/>
@@ -5159,29 +5159,29 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </segment>
 <segment>
 <label x="208.28" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CON5" gate="-2" pin="S"/>
+<pinref part="CON6" gate="-2" pin="S"/>
 <wire x1="215.9" y1="147.32" x2="208.28" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="208.28" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CON6" gate="-2" pin="S"/>
+<pinref part="CON7" gate="-2" pin="S"/>
 <wire x1="215.9" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="279.4" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CON7" gate="-2" pin="S"/>
+<pinref part="CON8" gate="-2" pin="S"/>
 <wire x1="287.02" y1="147.32" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="279.4" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CON8" gate="-2" pin="S"/>
+<pinref part="CON9" gate="-2" pin="S"/>
 <wire x1="287.02" y1="78.74" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C0_SDA_EXT" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="SDAOUT"/>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="213.36" x2="314.96" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="213.36" x2="314.96" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="213.36" x2="350.52" y2="213.36" width="0.1524" layer="91"/>
@@ -5190,22 +5190,22 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </segment>
 <segment>
 <label x="185.42" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CON5" gate="-3" pin="S"/>
+<pinref part="CON6" gate="-3" pin="S"/>
 <wire x1="215.9" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="185.42" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CON6" gate="-3" pin="S"/>
+<pinref part="CON7" gate="-3" pin="S"/>
 <wire x1="215.9" y1="76.2" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="256.54" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CON7" gate="-3" pin="S"/>
+<pinref part="CON8" gate="-3" pin="S"/>
 <wire x1="287.02" y1="144.78" x2="256.54" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="256.54" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CON8" gate="-3" pin="S"/>
+<pinref part="CON9" gate="-3" pin="S"/>
 <wire x1="287.02" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
