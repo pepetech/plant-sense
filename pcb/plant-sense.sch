@@ -1652,15 +1652,6 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <smd name="GND@2" x="0" y="0" dx="1.524" dy="4.064" layer="16"/>
 <smd name="GND@3" x="5.08" y="0" dx="1.524" dy="4.064" layer="16"/>
 </package>
-<package name="PAD-RF">
-<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="GND@0" x="-2" y="0.375" dx="1" dy="3.25" layer="1" cream="no"/>
-<text x="-2.67" y="-1.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<smd name="SIGNAL" x="0" y="0" dx="1.5" dy="2.5" layer="1" cream="no"/>
-<smd name="GND@2" x="2" y="0.375" dx="1" dy="3.25" layer="1" cream="no"/>
-<smd name="GND@1" x="0" y="2.5" dx="1" dy="5" layer="1" rot="R90" cream="no"/>
-<pad name="FEED" x="0" y="0.5" drill="0.3" diameter="1.5" stop="no" thermals="no"/>
-</package>
 <package name="BNC">
 <pad name="SIGNAL" x="0" y="0" drill="0.9" diameter="1.778"/>
 <pad name="GND" x="-2.45" y="0" drill="0.9" diameter="1.778"/>
@@ -1688,6 +1679,14 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 <wire x1="-4.85" y1="33.35" x2="4.85" y2="33.35" width="0.127" layer="21"/>
 <wire x1="4.85" y1="33.35" x2="4.85" y2="21.35" width="0.127" layer="21"/>
 <text x="-7.112" y="-2.921" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="PAD-RF">
+<description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
+<smd name="GND@0" x="-2" y="0.375" dx="1" dy="3.25" layer="1" cream="no"/>
+<text x="-3.178" y="-1.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<smd name="SIGNAL" x="0" y="0" dx="1.5" dy="2.5" layer="1" cream="no"/>
+<smd name="GND@1" x="2" y="0.375" dx="1" dy="3.25" layer="1" cream="no"/>
+<pad name="FEED" x="0" y="0.5" drill="0.3" diameter="1.5" stop="no" thermals="no"/>
 </package>
 </packages>
 <symbols>
@@ -1735,7 +1734,7 @@ This is a footprint for an edge mount RF antenna. Works pretty well with SMA typ
 </device>
 <device name="-PAD" package="PAD-RF">
 <connects>
-<connect gate="G$1" pin="GND" pad="GND@0 GND@1 GND@2"/>
+<connect gate="G$1" pin="GND" pad="GND@0 GND@1"/>
 <connect gate="G$1" pin="SIGNAL" pad="FEED SIGNAL"/>
 </connects>
 <technologies>
