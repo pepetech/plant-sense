@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1341,7 +1341,7 @@ Jul 2019</text>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="jlcpcb">
+<designrules name="jlcpcb_2layer">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1405,8 +1405,8 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="0.075mm"/>
+<param name="mlMaxStopFrame" value="0.075mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="10mm"/>
@@ -2225,7 +2225,6 @@ design rules under a new name.</description>
 <via x="29.4" y="23.4" extent="1-16" drill="0.3"/>
 <via x="30.4" y="23.4" extent="1-16" drill="0.3"/>
 <via x="31.4" y="23.4" extent="1-16" drill="0.3"/>
-<via x="29.4" y="24.4" extent="1-16" drill="0.3"/>
 <via x="30.4" y="24.4" extent="1-16" drill="0.3"/>
 <via x="31.4" y="24.4" extent="1-16" drill="0.3"/>
 <via x="35.4" y="16.4" extent="1-16" drill="0.3"/>
@@ -2371,9 +2370,7 @@ design rules under a new name.</description>
 <via x="34" y="4" extent="1-16" drill="0.3"/>
 <via x="33" y="4" extent="1-16" drill="0.3"/>
 <via x="32" y="4" extent="1-16" drill="0.3"/>
-<wire x1="33" y1="4" x2="34" y2="4" width="0" layer="19" extent="1-1"/>
-<wire x1="32" y1="4" x2="33" y2="4" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="5" x2="34" y2="4" width="0" layer="19" extent="1-1"/>
+<via x="22.2" y="20.3" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$47">
 <contactref element="U3" pad="3"/>
@@ -2984,9 +2981,10 @@ design rules under a new name.</description>
 <wire x1="23.981" y1="22.081" x2="25.9" y2="24" width="0.2" layer="16"/>
 <via x="25.9" y="24" extent="1-16" drill="0.3"/>
 <wire x1="20.819" y1="22.081" x2="23.981" y2="22.081" width="0.2" layer="16"/>
-<wire x1="25.9" y1="24" x2="30.3" y2="28.4" width="0.2" layer="1"/>
+<wire x1="25.9" y1="24" x2="27.4" y2="24" width="0.2" layer="1"/>
+<wire x1="30.3" y1="26.9" x2="27.4" y2="24" width="0.2" layer="1"/>
 <wire x1="31.6" y1="35.5" x2="33.18085" y2="35.5" width="0.2" layer="1"/>
-<wire x1="30.3" y1="28.4" x2="30.3" y2="34.2" width="0.2" layer="1"/>
+<wire x1="30.3" y1="26.9" x2="30.3" y2="34.2" width="0.2" layer="1"/>
 <wire x1="30.3" y1="34.2" x2="31.6" y2="35.5" width="0.2" layer="1"/>
 </signal>
 <signal name="HSENS2">
@@ -3000,8 +2998,9 @@ design rules under a new name.</description>
 <wire x1="19.7" y1="22.4" x2="20.346" y2="21.754" width="0.2" layer="16"/>
 <wire x1="25.054" y1="21.754" x2="25.9" y2="22.6" width="0.2" layer="16"/>
 <via x="25.9" y="22.6" extent="1-16" drill="0.3"/>
-<wire x1="25.9" y1="22.6" x2="31.3" y2="28" width="0.2" layer="1"/>
-<wire x1="31.3" y1="28" x2="33.18085" y2="28" width="0.2" layer="1"/>
+<wire x1="25.9" y1="22.6" x2="27.1" y2="22.6" width="0.2" layer="1"/>
+<wire x1="32.5" y1="28" x2="27.1" y2="22.6" width="0.2" layer="1"/>
+<wire x1="32.5" y1="28" x2="33.18085" y2="28" width="0.2" layer="1"/>
 <wire x1="20.346" y1="21.754" x2="25.054" y2="21.754" width="0.2" layer="16"/>
 </signal>
 <signal name="HSENS3">
@@ -3206,6 +3205,20 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="19,1,a6f9a14c3a7a3dcf"/>
+<approved hash="19,1,a5adab18302e3e9b"/>
+<approved hash="19,1,ad26ac0c7e3a7f10"/>
+<approved hash="19,1,a85aaf1c7d2a7a6c"/>
+<approved hash="19,1,27582819332f3c6e"/>
+<approved hash="19,1,e459e31a0d2c0a6f"/>
+<approved hash="19,1,aaa6ab0479327890"/>
+<approved hash="19,1,e6a5e70209340893"/>
+<approved hash="19,1,b2a7b30ae93ce891"/>
+<approved hash="19,1,b05bb712ed24ea6d"/>
+<approved hash="19,1,b527b402ee34ef11"/>
+<approved hash="19,1,e125e00a0e3c0f13"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
